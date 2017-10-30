@@ -1,9 +1,9 @@
 $emailFromAddress = "xxx@xxx.com"
 $bccemail = "xxx@xxx.com"
 $emailToAddress = "xxx@xxx.com"
-$emailSMTPServer = "outlook.office365.com"
+$emailSMTPServer = "SMTP SERVER ADDRESS"
 $emailSubject = "User List"
-$emailBodyText = "#AUTOMATED EMAIL# - Attached User List for - " 
+$emailBodyText = "#AUTOMATED EMAIL# - Attached User List for - XXXX" 
 $date = Get-Date -format d-M-yyyy
 $emailBody = $emailBodyText + $date
 $credObject = Get-AutomationPSCredential -Name 'automation'
